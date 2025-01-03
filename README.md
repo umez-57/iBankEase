@@ -1,18 +1,6 @@
 Banking System Project
 A multi-role Banking System built with PHP, MySQL, HTML/CSS/JavaScript, and Tailwind CSS for a modern, user-friendly interface. This system provides distinct dashboards and functionality for Admins, Staff, and Customers, ensuring role-based access and efficient banking operations.
 
-Table of Contents
-Overview
-Key Features
-Roles & Dashboards
-Technology Stack
-Installation & Setup
-Database Schema & Configuration
-Usage
-Directory Structure
-Contributing
-
-
 Overview
 This project simulates a banking environment where different users (admin, staff, customer) can access distinct features. The system handles user registration, account management, transactions, ATM services, and complaint handling. It leverages a MySQL database for data persistence and Tailwind CSS for a sleek, responsive UI.
 
