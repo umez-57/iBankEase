@@ -1,0 +1,133 @@
+/* General styling */
+.dashboard-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #333;
+    font-weight: bold;
+}
+
+.pending {
+    color: #ff9800;
+    background-color: #fff3e0;
+    font-weight: bold;
+}
+
+.resolved {
+    color: #4caf50;
+    background-color: #e0f7e0;
+    font-weight: bold;
+}
+
+/* Success and error message styling */
+.message-success {
+    color: #4caf50;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.message-error {
+    color: #f44336;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Complaint Details Styling */
+#complaintDetails {
+    display: none;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+#complaintDetails h3 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+#complaintDetails p {
+    margin: 8px 0;
+    color: #555;
+    font-size: 16px;
+}
+
+/* Button styling */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    color: #ffffff;
+}
+
+button:hover {
+    transform: translateY(-2px);
+}
+
+/* Action buttons in the table */
+button[onclick*="viewComplaintDetails"] {
+    background-color: #2196f3;
+}
+
+button[onclick*="viewComplaintDetails"]:hover {
+    background-color: #1976d2;
+}
+
+#complaintDetails button {
+    background-color: #f9a806;
+    margin: 5px;
+}
+
+#complaintDetails button:last-of-type {
+    background-color: #4caf50;
+}
+
+#complaintDetails button:hover {
+    opacity: 0.9;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .dashboard-container {
+        width: 95%;
+        padding: 15px;
+    }
+
+    th, td {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+}

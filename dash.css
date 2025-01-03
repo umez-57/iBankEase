@@ -1,0 +1,108 @@
+/* General Body Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container for Dashboard */
+.dashboard-container {
+    width: 450px;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Greeting Message */
+h1 {
+    color: #2c3e50;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+/* Information Styling */
+p {
+    font-size: 16px;
+    color: #7f8c8d;
+    margin: 10px 0;
+}
+
+/* Strong Tag for Labels */
+strong {
+    color: #34495e;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+/* Action Buttons */
+.actions {
+    margin-top: 20px;
+}
+
+/* Button Styling */
+button {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    font-size: 16px;
+    color: white;
+    background-color: #3498db;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover Effect for Buttons */
+button:hover {
+    background-color: #2980b9;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Logout Button Styling */
+button:last-child {
+    background-color: #e74c3c;
+}
+
+button:last-child:hover {
+    background-color: #c0392b;
+}
+
+/* Optional: Adjust Spacing for the Dashboard */
+.dashboard-container h1, .dashboard-container p {
+    margin-bottom: 15px;
+}
+
+/* Adjust styles for complaint buttons to fit in the same row */
+#complaint-options {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+#complaint-options .complaint-button {
+    width: 48%; /* Adjust width to fit both buttons in the row */
+    padding: 10px;
+    font-size: 14px;
+    color: white;
+    background-color: #3498db;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#complaint-options .complaint-button:hover {
+    background-color: #2980b9;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+

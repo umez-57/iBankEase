@@ -1,0 +1,118 @@
+/* General Body Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Transfer Container */
+.transfer-container {
+    width: 450px;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Headings */
+h2 {
+    color: #2c3e50;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Available Balance */
+.available-balance {
+    font-size: 16px;
+    color: #34495e;
+    margin-bottom: 25px;
+}
+
+/* Labels */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #34495e;
+    text-align: left;
+}
+
+/* Input and Button Containers */
+.field-container {
+    margin-bottom: 25px;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input[type="text"], input[type="number"] {
+    width: 65%;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #dcdcdc;
+    border-radius: 8px;
+    font-size: 15px;
+    color: #333;
+}
+
+/* Verify Button Styling */
+.verify-btn {
+    margin-right: 40px;
+    padding: 10px 15px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.verify-btn:hover {
+    background-color: #2980b9;
+}
+
+/* Transfer Button */
+.transfer-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.transfer-button:hover {
+    background-color: #229954;
+    margin-top: 25px;
+}
+
+/* Success and Error Text */
+.success-text {
+    color: #27ae60;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.error-text {
+    color: #e74c3c;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+#amount{
+    margin-left: -120px;
+}

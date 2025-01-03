@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.card-container {
+    width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card-details{
+            background-image: url('https://i.ibb.co/3zwShvP/Picsart-23-10-30-14-58-19-511.png');
+            background-size: 100% 100%; 
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            color: #ffffff;
+            font-size: 24px;
+}
+
+.card-details p {
+    font-size: 16px;
+    color: #ffffff;
+}
+
+#num{
+    margin-top: 70px;
+    margin-left: 75px;
+}
+#exp{
+    margin-left: 190px;
+}
+
+#cvv{
+    margin-left: 190px;
+}
+
+
+.manage-options input, .manage-options button {
+    width: 90%;
+    padding: 12px;
+    margin: 10px auto;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+}
+
+.manage-options input {
+    background-color: #f9f9f9;
+}
+
+.manage-options button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.manage-options button:hover {
+    background-color: #0056b3;
+}
+
+#success-message {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #28a745;
+}
+
+#block, #unblock {
+    width: 90%;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: #dc3545;
+    border: none;
+    border-radius: 5px;
+    margin: 10px auto;
+    cursor: pointer;
+    width: 200px;
+}
+
+#block:hover {
+    background-color: #c82333;
+   
+}
+
+#unblock {
+    background-color: #28a745;
+}
+
+#unblock:hover {
+    background-color: #218838;
+}
+
+#new-daily-limit,#new-pin{
+    width: 400px;
+}
+
+#card-status {
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 18px;
+}
