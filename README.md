@@ -72,28 +72,8 @@ Admins: Update user info, manage accounts and cards, handle high-level tasks.
 
 Directory Structure
 
-banking_system/
-├── admin/
-│   ├── admin_dashboard.php
-│   └── ... (other admin pages)
-├── staff/
-│   ├── staff_dashboard.php
-│   ├── staff_deposit.php
-│   ├── staff_withdraw.php
-│   └── ...
-├── customer/
-│   ├── dashboard.php
-│   ├── atm_services.php
-│   └── ...
-├── complaints/
-│   ├── view_complaints.php
-│   └── ...
-├── db_connect.php
-├── login.php
-├── logout.php
-├── register.php
-└── ...
-(Adjust if your actual folder names differ.)
+![image](https://github.com/user-attachments/assets/2a7fcbbb-e935-4d46-9d97-0c40997c02c5)
+
 
 Contributing
 Fork this repo and clone it locally.
